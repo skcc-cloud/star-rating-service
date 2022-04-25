@@ -15,6 +15,7 @@ public class StarRateDto {
     Long id;		// 관리번호
     Long talentCategoryId;	// 재능 카테고리 아이디
     Double rate;	// 평점
+    String comment;
 
     @DateTimeFormat(pattern = "yyyy-MM-dd HH:mm:ss")
     @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd HH:mm:ss", timezone = "Asia/Seoul")
